@@ -1,4 +1,4 @@
-### ReactRedux-Starter ###
+### Mon app video search ###
 
 Pour installer le projet se placer dans le projet et lancer : 
 
