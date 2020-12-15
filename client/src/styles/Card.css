@@ -1,0 +1,46 @@
+.card {
+	width: 16.66%;
+	height: auto;
+	position: relative;
+	margin: 4px 4px 4px 4px;
+	transition: transform 0.2s;
+}
+
+.card img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.title-movie {
+	visibility: hidden;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0px;
+	padding-left: 16px;
+	padding-top: 100px;
+	color: white;
+	font-size: 24px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card:hover {
+	/* filter: grayscale(var(--value, 100%));    img black and white */
+	transform: scale(1.2);
+	z-index: 1;
+}
+
+.card:hover .title-movie {
+	/* border: 1px solid red; */
+	visibility: visible;
+	background-image: linear-gradient(
+		to top,
+		#020202cc,
+		#030303aa,
+		#05050555,
+		#07070733,
+		#0808080c
+	);
+}

@@ -1,0 +1,17 @@
+#login-btn {
+	padding: 8px;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 8px;
+	color: white;
+	transition: transform 0.2s; /* Animation */
+	outline: none;
+}
+
+#login-btn:hover {
+	background-color: white;
+	border: 1px solid #36393f;
+	color: #36393f;
+	outline: none;
+	transform: scale(1.2);
+}
